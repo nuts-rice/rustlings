@@ -10,5 +10,8 @@ fn main() {
 }
 
 fn current_favorite_color() -> String {
-    "blue"
+    let colorStr = "blue"
+    return colorStr
+    ;
+    
 }
