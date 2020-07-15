@@ -7,8 +7,10 @@ struct Wrapper {
 }
 
 impl Wrapper {
-    pub fn new<V>(value) -> Self {
-        Wrapper { Vec<value> }
+    pub fn new <B> (value) -> Self {
+        where value: 
+        Wrapper { value }
+        
     }
 }
 
