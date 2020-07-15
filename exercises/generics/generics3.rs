@@ -15,7 +15,8 @@ pub struct ReportCard {
 }
 
 impl ReportCard {
-    pub fn print(&self) -> String {
+    pub fn print<S>(str0 : S) -> String {
+            where S: String
         format!("{} ({}) - achieved a grade of {}", 
             &self.student_name, &self.student_age, &self.grade)
     }
